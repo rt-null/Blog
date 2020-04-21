@@ -19,7 +19,6 @@ def start():
     t.start()
     t.join()
     index += 1
- 
- 
+
 if __name__ == "__main__":
   start()

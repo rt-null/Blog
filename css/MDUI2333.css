@@ -1,3 +1,32 @@
+/*障眼法xD*/
+.ui-spy {
+	display: inline-block;
+	cursor: pointer;
+	transition: color .3s ease
+}
+
+.ui-spy:before {
+	position: absolute;
+	content: attr(data-real);
+	opacity: 0;
+	color: #fff;
+	background: #333;
+	padding: 0 .2em;
+	margin: 0 -.2em;
+	transition: opacity .3s ease
+}
+
+.ui-spy:active,.ui-spy:hover {
+	color: rgba(0,0,0,.1)
+}
+
+.ui-spy:active:before,.ui-spy:hover:before {
+	opacity: 1
+}
+
+.display {
+	display: inline-block!important
+}
 /*黑幕*/
 .heimu, .heimu a, a .heimu, .heimu a.new {
     background-color: #252525;

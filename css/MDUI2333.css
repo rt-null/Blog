@@ -89,7 +89,7 @@ div.page-navigator div.next a,div.page-navigator div.prev a {line-height:28px!im
 div.page-navigator div.current {background:var(--themeprimary);}
 /*post.php & page.php*/
 .mdui-typo hr {margin:0 0 1.2em 0;height:4px;border:0;background:var(--themeaccent);}
-.mdui-typo img{border-radius:20px;box-shadow:5px 5px 5px rgba(0,0,0,.5);-moz-box-shadow:2px 2px 2px rgba(0,0,0,.5);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.5)}
+.post-container img{border-radius:20px;box-shadow:5px 5px 5px rgba(0,0,0,.5);-moz-box-shadow:2px 2px 2px rgba(0,0,0,.5);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.5)}
 a.Fancybox {margin-bottom:-8px!important;}
 .post-container h1,.post-container h2,.post-container h3,.post-container h4,.post-container h5,.post-container h6 {color:var(--themeprimary);}
 .post-container p .Fancybox {vertical-align:middle;}

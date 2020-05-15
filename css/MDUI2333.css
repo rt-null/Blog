@@ -47,7 +47,6 @@
 .heimu:active .new, .heimu .new:active, .new:active .heimu {
     color: #BA0000 !important;
 }
-
 /*阅读更多：https://zh.moegirl.org/MediaWiki:Mobile.css 本文引自萌娘百科(https://zh.moegirl.org)，文字内容默认使用《知识共享 署名-非商业性使用-相同方式共享 3.0》协议。*/
 /*index.php*/
 ::selection {background:#b3d4fc;text-shadow:none;}
@@ -90,6 +89,7 @@ div.page-navigator div.next a,div.page-navigator div.prev a {line-height:28px!im
 div.page-navigator div.current {background:var(--themeprimary);}
 /*post.php & page.php*/
 .mdui-typo hr {margin:0 0 1.2em 0;height:4px;border:0;background:var(--themeaccent);}
+.mdui-typo img{border-radius:20px;box-shadow:5px 5px 5px rgba(0,0,0,.5);-moz-box-shadow:2px 2px 2px rgba(0,0,0,.5);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.5)}
 a.Fancybox {margin-bottom:-8px!important;}
 .post-container h1,.post-container h2,.post-container h3,.post-container h4,.post-container h5,.post-container h6 {color:var(--themeprimary);}
 .post-container p .Fancybox {vertical-align:middle;}
@@ -103,9 +103,7 @@ a.Fancybox {margin-bottom:-8px!important;}
 #post-toc .index-item.current > .index-link {background-color:rgba(0,0,0,0.1);border-left:3px solid var(--themeaccent);}
 #post-toc .index-link:hover {background-color:rgba(0,0,0,0.1);}
 #post-toc .index-subItem-box .index-item {padding-left:1em;}
-#post-toc .img{border-radius:20px;box-shadow:5px 5px 5px rgba(0,0,0,.5);-moz-box-shadow:2px 2px 2px rgba(0,0,0,.5);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.5)}
 #tag-container a {display:inline-block;}
-/*图片圆角＋阴影*/
 .dairy-content {height:200px;overflow-y:auto;}
 #bangumi .bangumi-cover {padding-top:133%;background-position:center;background-size:cover;background-repeat:no-repeat;}
 #bangumi .bangumi-title {font-weight:500;text-align:center;}

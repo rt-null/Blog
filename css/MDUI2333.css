@@ -1,6 +1,5 @@
 
-/*图片圆角＋阴影*/
-img{border-radius:20px;box-shadow:5px 5px 5px rgba(0,0,0,.5);-moz-box-shadow:2px 2px 2px rgba(0,0,0,.5);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.5)}
+
 /*障眼法xD*/
 .ui-spy {
 	display: inline-block;
@@ -104,7 +103,9 @@ a.Fancybox {margin-bottom:-8px!important;}
 #post-toc .index-item.current > .index-link {background-color:rgba(0,0,0,0.1);border-left:3px solid var(--themeaccent);}
 #post-toc .index-link:hover {background-color:rgba(0,0,0,0.1);}
 #post-toc .index-subItem-box .index-item {padding-left:1em;}
+#post-toc .img{border-radius:20px;box-shadow:5px 5px 5px rgba(0,0,0,.5);-moz-box-shadow:2px 2px 2px rgba(0,0,0,.5);-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.5)}
 #tag-container a {display:inline-block;}
+/*图片圆角＋阴影*/
 .dairy-content {height:200px;overflow-y:auto;}
 #bangumi .bangumi-cover {padding-top:133%;background-position:center;background-size:cover;background-repeat:no-repeat;}
 #bangumi .bangumi-title {font-weight:500;text-align:center;}
